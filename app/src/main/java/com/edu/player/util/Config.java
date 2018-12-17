@@ -10,4 +10,7 @@ public class Config {
     public static final long CONNECT_TIMEOUT = 10 * 1000;  // 网络超时
 
     public static final int CODE_OK = 0;
+
+    public static final String DEFAULT_IP = "";
+    public static final int DEFAULT_PORT = 0;
 }

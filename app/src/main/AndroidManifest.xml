@@ -17,6 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".business.main.MainActivity"></activity>
-    </application>
 
+        <service android:name=".common.service.TCPHeartService" android:process=":tcp_heart"></service>
+    </application>
 </manifest>
